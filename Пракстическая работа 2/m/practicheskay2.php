@@ -14,5 +14,5 @@
     $d = 30;
     $res=(a/c)*(b/d)-((a*b-c))/(c*d);  
 
-</body>
+<body>
 </html>
