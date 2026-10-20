@@ -18,3 +18,27 @@ for($i = 0;$i < count($nums); $i++){
 
 }
 ?>
+<h2>Цикл foreach</h2>
+<?php
+foreach ($nums as $num){
+    echo $num. ' ';
+
+}
+?>
+<h2>Цикл foreach с индексами</h2>
+<?php
+foreach ($nums as $key => $value){
+    echo "$key - $value <br>";
+
+}
+?>
+<h2>Поиск максимума</h2>
+<?php
+$max = $nums[0];
+foreach($nums as $num){
+    if($num > $max){
+        $max = $num;
+    }
+}
+echo"Максимальное значение = $max";
+?>
